@@ -75,6 +75,7 @@ import wordpress from '/public/svg/skills/wordpress.svg';
 import r from '/public/svg/skills/r.svg';
 import node from '/public/svg/skills/node.svg';
 import express from '/public/svg/skills/express.svg';
+import gsap from '/public/svg/skills/gsap.svg'
 
 
 
@@ -236,6 +237,8 @@ export const skillsImage = (skill) => {
           return node;
     case 'express':
           return express;   
+    case 'gsap':
+           return gsap;
 
         
     default:
