@@ -4,30 +4,33 @@ export const skillsData = [
   'CSS',
   'JavaScript',
   'React',
-  'Tailwind',
+  'Node.js',    // Emphasizes full MERN stack
+  'Express',    // Emphasizes full MERN stack
   'MongoDB',
-  'Git',
+  'Tailwind',
   'Bootstrap',
-  'Node',  // Add this since MERN includes Node.js
-  'Express',  // Add this to emphasize full MERN stack
-   'GSAP',
+  'GSAP',
+  'Git',
 
   // Additional Front-end Frameworks & Tools
   'Angular',
   'Canva',
-  'Microsoft Office',
 
   // Back-end Development & Databases
-  'MySQL',
   'Django',
+  'MySQL',
+
+  // Cloud Services
+  'AWS',
 
   // Programming Languages
-  'C',
   'Python',
   'Java',
+  'C',
   'R',
-  //Cloud 
-  'AWS',
+
+  // Productivity Tools
+  'Microsoft Office',
  
 ];
 
