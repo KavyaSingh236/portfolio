@@ -5,7 +5,7 @@ const projectData = [
       description: "TrailsByKav is a travel platform inspired by Airbnb, built with Node.js, Express, and MongoDB. It features secure authentication, interactive maps, reviews, and image uploads. Users can explore listings, leave reviews, and manage profiles.",
       githubLink: "https://github.com/KavyaSingh236/TrailsByKav",
       liveDemoLink: "https://trailsbykav.onrender.com/listing", 
-      image: "https://media.licdn.com/dms/image/v2/D562DAQFhdg5LLRiyBg/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1727786270709?e=1728392400&v=beta&t=nEe9IfmPQEnvdRh663JGuuZ3gmDaSvBbA7ldr89zBzA"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQFhdg5LLRiyBg/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1727786270709?e=1729098000&v=beta&t=zdrBL0H0hHi5cvP5PlJv-LgIQz1gPTwPvhjHzsB6gPU"
     },
     {
       title: "KOSRA Travel Management",
@@ -19,21 +19,21 @@ const projectData = [
       description: "A  streamlined solution that simplifies organ donation by automating donor registration, coordinating organ transpor. Built with Flask, MySQL, and an intuitive interface, it enhances transparency, improves efficiency, and ensures better outcomes for patients in need of transplants.",
       githubLink: "https://github.com/KavyaSingh236/OrganDonation/tree/main",
       youtubeLink:"https://www.youtube.com/watch?v=MAR3K76W2N0", 
-      image: "https://media.licdn.com/dms/image/sync/v2/D5627AQFtx0abm9EWUA/articleshare-shrink_800/articleshare-shrink_800/0/1721987578534?e=1728392400&v=beta&t=M953T7H4V5_hNMEOGwykzZK4S0iwSUnMYTkAFi0bWNQ"
+      image: "https://media.licdn.com/dms/image/sync/v2/D5627AQFtx0abm9EWUA/articleshare-shrink_800/articleshare-shrink_800/0/1721987578534?e=1729098000&v=beta&t=TyQfSKEcHD5wqH0qyjlYkqJdiAwaspPwVq9Fu2dykBM"
     },
     {
       title: "Tempsat",
       description: "A user-friendly weather platform offering accurate forecasts and insights, built with HTML, CSS, and JavaScript to help users make informed decisions.",
       githubLink: "https://github.com/KavyaSingh236/Tempsat",
       liveDemoLink: "https://kavyasingh236.github.io/Tempsat/", 
-      image: "https://media.licdn.com/dms/image/v2/D562DAQHs9FICrVLjnA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1716293832369?e=1728392400&v=beta&t=0wwOJ9f2_c16wvB11Jkp-jm3PltmfG-gRvGhdvHWikk"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHs9FICrVLjnA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1716293832369?e=1729098000&v=beta&t=64eVfyfW5SdoOoky9bD8OY3UrCfFf1m7MxaNU9gETXo"
     },
     {
       title: "Pixel Craft",
       description: "An easy-to-use online image editor focused on simplicity, allowing users to crop, resize, and edit images efficiently, making it ideal for quick image manipulation.",
       githubLink: "https://github.com/KavyaSingh236/Pixel",
       liveDemoLink: "https://kavyasingh236.github.io/Pixel/", 
-      image: "https://media.licdn.com/dms/image/v2/D562DAQECDnFgMCDx8Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726940777998?e=1728392400&v=beta&t=bp9FP_onzxMchTnJv62UOyo1fSO5yAFTtWQ2PjnzCUI"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQECDnFgMCDx8Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1726940777998?e=1729098000&v=beta&t=bo1f253XoXXUrZr5G2cZ7enHFrnO7fEB9IEGVsWTt3A"
     }
   ];
   
