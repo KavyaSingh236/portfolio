@@ -4,7 +4,7 @@ export const skillsData = [
   'CSS',
   'JavaScript',
   'React',
-  'Node.js',    // Emphasizes full MERN stack
+  'Node',    // Emphasizes full MERN stack
   'Express',    // Emphasizes full MERN stack
   'MongoDB',
   'Tailwind',
