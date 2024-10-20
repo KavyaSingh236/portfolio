@@ -5,7 +5,7 @@ const projectData = [
       description: "TrailsByKav is a travel platform inspired by Airbnb, built with Node.js, Express, and MongoDB. It features secure authentication, interactive maps, reviews, and image uploads. Users can explore listings, leave reviews, and manage profiles.",
       githubLink: "https://github.com/KavyaSingh236/TrailsByKav",
       liveDemoLink: "https://trailsbykav.onrender.com/listing", 
-      image: "https://media.licdn.com/dms/image/v2/D562DAQFhdg5LLRiyBg/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1727786270709?e=1729098000&v=beta&t=zdrBL0H0hHi5cvP5PlJv-LgIQz1gPTwPvhjHzsB6gPU"
+      image: "/projects/trails.png"
     },
     {
       title: "KOSRA Travel Management",
