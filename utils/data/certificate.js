@@ -8,7 +8,7 @@ export const academicCertificates = [
     {
       id: 2,
       title: "Master Course of Edge Computing 3.0",
-      image: "/certificate/acadcertificatenew.png",
+      image: "/certificate/acadcertificatenew.png", 
       link: "https://media.licdn.com/dms/image/v2/D562DAQFGSDRlLyp7eA/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1729690257379?e=1730296800&v=beta&t=onJYj1PYnWOGmXMBkP472aGjUcFcfaJvR5lTKlt0Q7I"
     },
     
