@@ -8,5 +8,5 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/kavya-singh-690888292/',
   youtube:'https://www.youtube.com/@KavyaSingh-t2g',
   instagram: 'https://www.instagram.com/sweet_syntax/?igsh=MXhqcm94aTVlM3U0cw%3D%3D',
-  resume: "https://drive.google.com/file/d/136hFP5gFuTe5JcWwdt0WHA-5HAvkbp39/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1nTibyesaa_yj91ociKgOyT6leTBg74fe/view?usp=sharing"
 }
