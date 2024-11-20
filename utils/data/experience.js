@@ -12,7 +12,7 @@ export const experiences = [
   {
     title: "Full Stack Web Development Intern",
     company_name: "Varcons Technologies",
-    icon: "/experience/experience1.png",
+    icon: "/experience/experience4.png",
     iconBg: "#383E56",
     date: "May 2023 - Jun 2023",
     description: 
