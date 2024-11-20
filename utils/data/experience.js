@@ -10,6 +10,17 @@ export const experiences = [
       link:"https://cranesvarsity.com/"
   },
   {
+    title: "Full Stack Web Development Intern",
+    company_name: "Varcons Technologies",
+    icon: "/experience/experience1.png",
+    iconBg: "#383E56",
+    date: "May 2023 - Jun 2023",
+    description: 
+      "Redesigned the WSA NGO website with functional templates and database integration, ensuring client satisfaction and showcasing strong design skills.",
+      link:"https://www.varconstech.com/"
+  },
+  
+  {
     title:" Chhote Scientists Volunteer",
     company_name: "Youth for Seva",
     icon: "/experience/experience2.png",
