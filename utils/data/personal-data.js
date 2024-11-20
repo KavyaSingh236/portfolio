@@ -9,3 +9,4 @@ export const personalData = {
   youtube:'https://www.youtube.com/@KavyaSingh-t2g',
   instagram: 'https://www.instagram.com/sweet_syntax/?igsh=MXhqcm94aTVlM3U0cw%3D%3D',
   resume: "https://drive.google.com/file/d/172O-8sGx45wOLzlt14_euoMX5P20rMkY/view"
+}  
