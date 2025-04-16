@@ -15,6 +15,14 @@ const projectData = [
       image: "https://raw.githubusercontent.com/KavyaSingh236/KOSRATRAVELMANAGEMENT/main/thumbnail.png"
     },
     {
+      title: "KodeLive",
+      description: "KodeLive is a powerful real-time collaborative coding environment built for developers, students, and teams. Work together across files and languages with live sync, code execution, chat, drawing, and more — all in one place!",
+      githubLink: "https://github.com/KavyaSingh236/KodeLive",
+      liveDemoLink: "https://kodelive.netlify.app/", 
+      image: "/projects/kodelive.png"
+    },
+    
+    {
       title: "Organ Donation and Procurement Management System",
       description: "A  streamlined solution that simplifies organ donation by automating donor registration, coordinating organ transpor. Built with Flask, MySQL, and an intuitive interface, it enhances transparency, improves efficiency, and ensures better outcomes for patients in need of transplants.",
       githubLink: "https://github.com/KavyaSingh236/OrganDonation/tree/main",
