@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'iamkavya23@gmail.com',
-  phone: '+91 6363155933',
-  address: 'Bengaluru,Karnataka,560085 ',
+    email: 'KavyaBalajiSingh@gmail.com',
+  phone: '+1 (203) 534-8654',
+  address: 'Denton,TX',
   github: 'https://github.com/KavyaSingh236',
   linkedIn: 'https://www.linkedin.com/in/kavya-singh-690888292/',
 }
