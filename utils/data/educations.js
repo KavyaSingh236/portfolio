@@ -4,7 +4,7 @@ export const educations = [
     title: "Masters in Data Science",
     duration: "2025-2027",
     institution: "University of North Texas",
-    image: "/education/education3.jpg" ,  
+    image: "/education/education3.png" ,  
     link:"https://www.unt.edu/"
   },
   {
