@@ -14,7 +14,7 @@ import { AiFillYoutube } from "react-icons/ai";
 function HeroSection() {
   const [text] = useTypewriter({
     words: [
-      "Data Analyst"
+      "Data Analyst",
       "Full-Stack Developer",
       "Creative Problem Solver",
     ],
