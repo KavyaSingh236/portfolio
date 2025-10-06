@@ -13,36 +13,31 @@ import { AiFillYoutube } from "react-icons/ai";
 
 function HeroSection() {
   const [text] = useTypewriter({
-    words: [
-      "Data Analyst",
-      "Full-Stack Developer",
-      "Creative Problem Solver",
-    ],
+    words: ["Data Analyst", "Full-Stack Developer", "Creative Problem Solver"],
     loop: 0,
   });
 
   const waveAnimation = {
     display: "inline-block",
-    animation: "wave 1.5s ease-in-out infinite",  // Smoother transition
+    animation: "wave 2.5s ease-in-out infinite", // slower & smoother
   };
-  
+
   useEffect(() => {
     if (typeof document !== "undefined") {
       const styleSheet = document.styleSheets[0];
 
-      // Keyframe for wave animation
       const waveKeyframes = `
         @keyframes wave {
           0% { transform: rotate(0deg); }
-          25% { transform: rotate(15deg); }
-          50% { transform: rotate(30deg); }
-          75% { transform: rotate(15deg); }
+          20% { transform: rotate(15deg); }
+          40% { transform: rotate(30deg); }
+          60% { transform: rotate(15deg); }
+          80% { transform: rotate(0deg); }
           100% { transform: rotate(0deg); }
         }
       `;
       styleSheet.insertRule(waveKeyframes, styleSheet.cssRules.length);
 
-      // Keyframe for slide-in animation
       const slideInLeftKeyframes = `
         @keyframes slideInLeft {
           0% {
@@ -58,7 +53,6 @@ function HeroSection() {
       styleSheet.insertRule(slideInLeftKeyframes, styleSheet.cssRules.length);
     }
   }, []);
-  
 
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
@@ -71,15 +65,16 @@ function HeroSection() {
       />
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
+        {/* ==== LEFT TEXT SIDE ==== */}
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-serif font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-          <span
+            <span
               style={{
                 animation: "slideInLeft 1.5s ease-out forwards 0.5s",
                 display: "inline-block",
               }}
             >
-              Hi there{" "}
+              Hi{" "}
             </span>
             <span
               className="wave"
@@ -89,14 +84,14 @@ function HeroSection() {
             >
               👋🏻
             </span>
-            <br />
-            My name is{" "}
+            {", I'm "}
             <span className="text-pink-500">{personalData.name}</span>
+            {" — "}
             <br />
-            {`I'm a `}
-            <span className="text-[#16f2b3]">{text}</span>
+            <span className="text-[#16f2b3]">{`a ${text}`}</span>
           </h1>
 
+          {/* ==== SOCIAL ICONS ==== */}
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.linkedIn}
@@ -121,6 +116,7 @@ function HeroSection() {
             </Link>
           </div>
 
+          {/* ==== BUTTONS ==== */}
           <div className="flex items-center gap-3">
             <Link
               href="#contact"
@@ -143,6 +139,8 @@ function HeroSection() {
             </Link>
           </div>
         </div>
+
+        {/* ==== RIGHT CODE BOX ==== */}
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
@@ -192,37 +190,27 @@ function HeroSection() {
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  hardWorker:
-                </span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  quickLearner:
-                </span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">
-                  problemSolver:
-                </span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">
-                  hireable:
-                </span>
+                <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
                 <span className="text-orange-400">function</span>
                 <span className="text-gray-400">{"() {"}</span>
               </div>
               <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">
-                  return
-                </span>
+                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
                 <span className="text-gray-400">{`(`}</span>
               </div>
               <div>
